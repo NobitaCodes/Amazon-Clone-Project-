@@ -1,0 +1,799 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+a {
+    margin-left: 5px;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    background-image: url(/assets/aamazonlogo.png);
+    background-size: cover;
+}
+
+.border {
+    border: 1.2px solid transparent;
+}
+
+.border:hover {
+    border: 1.2px solid white;
+    border-radius: 4px;
+}
+
+.deliver {
+    margin-left: 10px;
+}
+
+.address-1 {
+    font-size: 0.84rem;
+    color: #cccccc;
+    margin-left: 20px;
+}
+
+.address-2 {
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+.searchbar {
+    display: flex;
+    /*background-color: pink;*/
+    width: 895px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.searchbar:hover {
+    border: 2px solid orange;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.search-select {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    text-align: center;
+    background-color: #e6e6e6;
+    color: #0F1111;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: 0.9rem;
+    color: black;
+
+}
+
+.search-icon {
+    width: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.32rem;
+    color: #0F1111;
+
+}
+
+.search-icon:hover {
+    background-color: rgb(247, 163, 53);
+    cursor: pointer;
+}
+
+.location-box {
+    display: flex;
+    width: 60px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+.flag {
+    width: 20px;
+    height: 15px;
+    background-image: url(/assets/usf.svg);
+    background-size: cover;
+    border: none;
+}
+
+.language-select {
+    color: white;
+    width: 25px;
+    height: 15.5px;
+    padding: 10px;
+}
+
+.xxy {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.language {
+    color: white;
+    background-color: #131921;
+    border: none;
+}
+
+.nav-line1 {
+    font-size: 0.75rem;
+}
+
+.nav-line2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.cart {
+    display: flex;
+    width: 84px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cart-icon i {
+    font-size: 30px;
+    text-align: center;
+}
+
+.cart-icon {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+/*END OF NAVBAR*/
+
+.nav-panel {
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-all {
+    width: 55px;
+    margin-left: 7px;
+    padding: 8px;
+}
+
+.panel-all i {
+    font-size: 17px;
+}
+
+.panel-options {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-size: 0.90rem;
+}
+
+.panel-options a {
+    text-decoration: none;
+}
+
+.panel-options p {
+    padding: 9px;
+}
+
+.panel-deals {
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+/*END OF PANEL*/
+.main-sec {
+    background-image: url(/assets/main.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.sec-white {
+    background-color: #f5f6f6;
+    color: #0F1111;
+    height: 40px;
+    width: 96.8%;
+    font-size: 0.92rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 300px;
+}
+
+.sec-white a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.sec-white a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+/* START OF SHOPPING SECTION*/
+.shop-panel-main {
+    background-color: #e3e6e6;
+    height: 1350px;
+}
+
+.shop-panel-1 {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 275px;
+    background-color: transparent;
+}
+
+.shop-box {
+    /*border: 2px solid black;*/
+    height: 395px;
+    width: 22.6%;
+    color: #0F1111;
+    background-color: white;
+
+
+}
+
+.shop-panel-2 {
+    background-color: #e3e6e6;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 250.5px;
+}
+
+/*ALL IMAGES*/
+.image1 {
+    height: 275px;
+    background-image: url(/assets/pc.jpg);
+    background-size: cover;
+}
+
+.image2 {
+    height: 275px;
+    background-image: url(/assets/watches.jpg);
+    background-size: cover;
+}
+
+.image3 {
+    height: 275px;
+    background-image: url(/assets/furnit.jpg);
+    background-size: cover;
+}
+
+.image4 {
+    height: 275px;
+    background-image: url(/assets/laptop.jpg);
+    background-size: cover;
+}
+
+.image5 {
+    height: 275px;
+    background-image: url(/assets/MOM.jpg);
+    background-size: cover;
+}
+
+.image6 {
+    height: 275px;
+    background-image: url(/assets/beauty.jpg);
+    background-size: cover;
+}
+
+.image7 {
+    height: 275px;
+    background-image: url(/assets/GAME.jpg);
+    background-size: cover;
+}
+
+.image8 {
+    height: 230px;
+    background-image: url(/assets/top\ deal.jpg);
+    background-size: cover;
+}
+
+/*ALL IMAGES*/
+
+
+.p-style {
+    color: #007185;
+    font-size: 0.8rem;
+
+}
+
+.p-style:hover {
+    color: rgb(247, 163, 53);
+}
+
+
+.box-cont {
+    margin: 20px;
+}
+
+.dealsd {
+    display: flex;
+    color: black;
+    margin-top: 9px;
+}
+
+.dealsdp {
+    font-size: 0.8rem;
+    color: black;
+    margin-top: 10px;
+}
+
+.deals1 {
+    background-color: #CC0C39;
+    font-size: 0.83rem;
+    padding: 3.5px;
+    border-radius: 1.7px;
+}
+
+.deals2 {
+    background-color: white;
+    color: #CC0C39;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.shop-panel3 {
+    height: 280px;
+    background-color: white;
+    position: relative;
+    bottom: 217px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;
+}
+
+.shop-panel3 span {
+    padding-bottom: 0.98px;
+    position: relative;
+    right: 3px;
+}
+
+.shop-panel3content {
+    padding: 15px;
+}
+
+.books {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-panel3 p {
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.book-property {
+    width: 133px;
+    height: 200px;
+}
+
+.book1 {
+    background-image: url(/assets/book1.jpg);
+}
+
+.book2 {
+    background-image: url(/assets/book2.jpg);
+}
+
+.book3 {
+    background-image: url(/assets/book3.jpg);
+}
+
+.book4 {
+    background-image: url(/assets/book4.jpg);
+}
+
+.book5 {
+    background-image: url(/assets/book5.jpg);
+}
+
+.book6 {
+    background-image: url(/assets/book6.jpg);
+}
+
+.book7 {
+    background-image: url(/assets/book7.jpg);
+}
+
+.book8 {
+    background-image: url(/assets/book8.jpg);
+}
+
+.shop-panel-4 {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 180px;
+    background-color: transparent;
+}
+
+.image9 {
+    height: 275px;
+    background-image: url(/assets/personal.jpg);
+    background-size: cover;
+}
+
+.image10 {
+    height: 255px;
+    background-image: url(/assets/watches.jpg);
+    background-size: cover;
+}
+
+.image11 {
+    height: 275px;
+    background-image: url(/assets/furnit.jpg);
+    background-size: cover;
+}
+
+.image12 {
+    height: 255px;
+    background-image: url(/assets/laptop.jpg);
+    background-size: cover;
+}
+
+/*START OF FOOTER*/
+
+
+.whitemain {
+    background-color: white;
+    height: 185px;
+
+}
+
+.whiteinside {
+    height: 125px;
+    border: 1.1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+}
+
+.signin {
+    color: black;
+    text-align: center;
+    margin: 39px;
+
+}
+
+.signin p {
+    color: black;
+    text-align: center;
+
+}
+
+
+.signinbutton {
+    border: 1.4px solid rgb(243, 175, 3);
+    border-radius: 3.5px;
+    background-image: linear-gradient(#FFD774, #FFC637);
+    color: black;
+    width: 230px;
+    height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.signinbutton:hover {
+    cursor: pointer;
+}
+
+.line1 {
+    font-size: 0.81rem;
+}
+
+.line2 {
+    font-size: 0.71rem;
+}
+
+.line2an {
+    color: #007185;
+    text-decoration: none;
+}
+
+.line2an:hover {
+    color: rgb(247, 163, 53);
+}
+
+
+/*footer*/
+
+.backtotop {
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backtotop a {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.backtotop:hover {
+    background-color: #485769;
+    cursor: pointer;
+}
+
+.footer-panel2 {
+    height: 310px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+
+}
+
+.list {
+    height: 320px;
+    line-height: 135%;
+    margin-top: 45px;
+
+}
+
+
+ul li {
+    list-style: none;
+    font-size: 0.9rem;
+    margin-top: 3.5px;
+    color: #dddddd;
+
+}
+
+.footer-panel2 p {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.subpanel3 {
+    height: 110px;
+    background-color: #232F3E;
+    border-top: 0.1px solid #848688;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 18px;
+
+}
+
+.footerlogo {
+    width: 95px;
+    height: 55px;
+    background-image: url(/assets/footamazon.png);
+    background-size: cover;
+}
+
+.footerline {
+    height: 34px;
+    width: 440px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    font-size: 0.8rem;
+
+}
+
+.part1 {
+    width: 120px;
+    height: 34px;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.part2 {
+    width: 150px;
+    height: 34px;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.part3 {
+    width: 140px;
+    height: 34px;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hov:hover {
+    cursor: pointer;
+}
+
+.footp {
+    color: #cccccc;
+    margin-left: 12px;
+}
+
+
+/*parent footer div*/
+.footer-panel4 {
+    height: 375px;
+    width: 100%;
+    background-color: #131A22;
+
+}
+
+/*child main footer div*/
+.panel14-content {
+    height: 315px;
+    display: grid;
+    grid-template-columns: repeat(7, 115px);
+    grid-template-rows: repeat(4, 80px);
+    grid-gap: 15.2px 29.5px;
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-top: 25px;
+    ;
+    justify-content: space-evenly;
+}
+
+.ft {
+    width: 110px;
+    height: 80px;
+}
+
+.ft1 {
+    width: 110px;
+    height: 80px;
+}
+
+/*colour code*/
+.headline1 {
+    color: #dddddd;
+    font-size: 0.78rem;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.headline1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.headline2 {
+    color: #999999;
+    font-size: 0.75rem;
+    line-height: 150%;
+    display: inline-block;
+    margin: 0px;
+    padding: 0pxs;
+    line-height: 12px;
+}
+
+.headline2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*end of colour code*/
+
+
+.footer-panel5 {
+    height: 80px;
+    background-color: #131A22;
+}
+
+.footline1 {
+    font-size: 0.78rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footline1 a {
+    text-decoration: none;
+    font-family: arial;
+    margin-left: 18px;
+    color: #dddddd;
+}
+
+.footline1 a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footline2 {
+    font-size: 0.78rem;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/*checkboxxxx*/
+.checkbox {
+    margin-left: 8.5px;
+    display: flex;
+    width: 29px;
+    height: 13px;
+    background-color: #0066FF;
+    border: none;
+    border-radius: 20px;
+}
+
+.tick {
+    width: 14.2px;
+    background-color: white;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    margin: 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tick i {
+    color: #0066FF;
+    font-size: 0.82rem;
+}
